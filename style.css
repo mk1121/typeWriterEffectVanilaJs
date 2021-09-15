@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body nav {
+  background-image: url(./assets/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.logo h1,
+.home h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.logo span,
+.home span {
+  color: red;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.container {
+  padding: 30px 80px;
+  display: flex;
+}
+.logo {
+  width: 30%;
+}
+.menu-item {
+  width: 70%;
+  text-align: right;
+  margin-top: 5px;
+}
+.menu-item ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.menu-item ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.menu-item ul li a:hover {
+  color: red;
+}
+.home {
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.text-1 {
+  font-size: 27px;
+}
+.text-2 {
+  font-size: 75px;
+  font-weight: 600;
+}
+.text-3 {
+  font-size: 40px;
+}
